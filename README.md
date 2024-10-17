@@ -1,1 +1,2 @@
-# deep-learning
+# Deep Learning
+In this project, I built a deep learning model to predict stock prices for Facebook and IBM. The model utilized historical stock data, including features like closing prices, volume, and technical indicators. I implemented a LSTM (Long Short-Term Memory) network to capture temporal dependencies in the data and improve prediction accuracy. The model was evaluated based on metrics like RMSE, MAE and MAPE, demonstrating its potential for forecasting stock trends.
