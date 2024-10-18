@@ -10,9 +10,13 @@ This project focuses on predicting the stock prices of Facebook and IBM using de
 ## Model Performance
 **Facebook:**
 RMSE, MAE, and MAPE showed slight variations across architectures, with GRU performing slightly better in terms of MAPE.
+
 **Best Accuracy:** 89% with the LSTM baseline model.
+
+
 **IBM:**
 The IBM dataset showed overfitting in modified architectures, suggesting that further tuning is needed.
+
 **Best Accuracy:** 87% with the LSTM baseline model.
 
 ## Conclusion
