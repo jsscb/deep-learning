@@ -1,2 +1,18 @@
-# Deep Learning
-In this project, I built a deep learning model to predict stock prices for Facebook and IBM. The model utilized historical stock data, including features like closing prices, volume, and technical indicators. I implemented a LSTM (Long Short-Term Memory) network to capture temporal dependencies in the data and improve prediction accuracy. The model was evaluated based on metrics like RMSE, MAE and MAPE, demonstrating its potential for forecasting stock trends.
+## Stock Price Prediction using LSTM and GRU
+# Project Overview
+This project focuses on predicting the stock prices of Facebook and IBM using deep learning techniques. The datasets used consist of historical stock data, and we experiment with different architectures like LSTM (Long Short-Term Memory) and GRU (Gated Recurrent Units) to capture temporal dependencies.
+
+# Datasets
+**FB.csv**: Facebook stock prices from May 18, 2012, to April 1, 2020.
+**IBM.csv**: IBM stock prices from January 2, 1962, to April 1, 2020.
+
+# Model Performance
+**Facebook:**
+RMSE, MAE, and MAPE showed slight variations across architectures, with GRU performing slightly better in terms of MAPE.
+**Best Accuracy:** 89% with the LSTM baseline model.
+**IBM:**
+The IBM dataset showed overfitting in modified architectures, suggesting that further tuning is needed.
+**Best Accuracy:** 87% with the LSTM baseline model.
+
+# Conclusion
+The LSTM and GRU models demonstrated solid performance in predicting stock prices, with the GRU providing comparable accuracy while maintaining stable training. The LSTM baseline model performed best, achieving up to 89% accuracy for Facebook stock predictions.
